@@ -1,0 +1,17 @@
+width=3
+height=3
+tree_height=10
+blank = tree_height - 1
+dot = 1
+counter=0
+while counter<tree_height:
+  print(' ' * blank + '*' * dot + ' ' * blank)
+  dot=dot+2
+  blank=blank-1
+  counter=counter+1
+counter=0  
+blank=tree_height-2
+dot=width
+while counter<height:
+  print(' ' * blank + '*' * dot + ' ' * blank)
+  counter=counter+1
